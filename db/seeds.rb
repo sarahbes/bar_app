@@ -1,7 +1,7 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+Bar.create! name: "Dubliner", picture: "http://www.dubliner.co.za/pics/out_side2.jpg", description: "The Dubliner at Kennedy's is Cape Towns first authentic Irish Pub located on the vibrant Long Street, in the heart of the action. They offer live music every night with a talented array of musicians and music.
+"
+Bar.create! name: "Aces 'n Spades", picture: "http://www.capetownmylove.com/wp-content/uploads/2012/11/acesnspades.jpg", description: "Aces 'n Spaces is a rock n roll bar. The dark wood and live performances make this bar one of Cape Towns trendiest spots for a night out."
+Bar.create! name: "31", picture: "http://www.capetown.travel/cache/ce_cache/made/club_31_580_347_80_s.jpg", description: "31 is the stylish and sophisticated club in the ABSA Building in Cape Town, on the corner of Adderley Street. With spectacular views of the city and the ocean, the décor is both stylish and comfortable with an oval bar and cocktail lounge."
+Bar.create! name: "The Assembly", picture: "http://www.capetownmagazine.com//media_lib/r2/25815f1e70f8081c214b2b8e9a8aee46.img.jpg", description: "Cavernous industrial-styled club hosting local and international DJs and musicians.
+"
+Bar.create! name: "Beer House", picture: "http://www.capetownmagazine.com//media_lib/r2/1fb637de0c9ec93d9e4e8b676e1651eb.img.jpg", description: "20 taps and 99 bottles, plus live music, in a spacious beer hall with a balcony and outside terrace."
