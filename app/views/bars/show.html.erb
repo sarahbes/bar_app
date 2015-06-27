@@ -1,0 +1,17 @@
+<h1>  <%= @bar.name %> </h1>
+
+<img src="<%= @bar.picture %>">
+
+<p> <%= @bar.description %> </p>
+
+
+
+<h3>Coming:</h3>
+<%= render @bar.users %>
+
+
+<h3>Are you coming?</h3>
+<%= render 'users/form' %>
+
+
+<%= link_to 'Back', bars_path %>
