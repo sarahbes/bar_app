@@ -1,10 +1,13 @@
-<h1> Bars in Cape Town </h1>
+<div class= "home">
+
+<header> Bars in Cape Town </header>
+
 
 <h2> Click on any of the links below to find out who's going where tonight </h2>
-
-
 <ul>
 <% @bars.each do |bar| %>
       <li><%= link_to bar.name, bar_path(bar) %></li>
   <% end %>
- </ul>
+</ul>
+
+</div>

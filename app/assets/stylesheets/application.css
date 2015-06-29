@@ -13,3 +13,89 @@
  *= require_tree .
  *= require_self
  */
+
+.home{
+	background-image: url("http://uniun.com/wp-content/uploads/Uniun_venue_3.jpg");
+	background-size: cover;
+	padding: 200px 0px 200px 0px;
+}
+
+header {
+	font-family: 'Londrina Shadow', cursive;
+	text-shadow: 3px 3px gray;
+  	text-align: center;
+  	font-size: 75px;
+  	color: black;
+}
+
+h2 {
+	font-family: helvetica, sans-serif;
+	text-align: center;
+	text-shadow: 2px 2px gray;
+	font-size: 30px;
+	color: black;
+}
+a {
+	font-weight: bold;
+}
+a.link{
+	color: black;
+}
+a:hover {
+	color: white;
+}
+a:visited {
+	color: black;
+}
+ul {
+	font-family: helvetica, sans-serif;
+	list-style-type: none;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+}
+
+h1 {
+	font-family: 'Londrina Shadow', cursive;
+	text-shadow: 2px 2px gray;
+  	text-align: center;
+  	font-size: 70px;
+  	color: black;
+}
+
+img {
+	border: 3px solid black;
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+}
+
+p {
+	color: black;
+	font-size: 20px;
+	text-align: center;
+	font-family: helvetica, sans-serif;
+}
+
+h3 {
+	color: black;
+	font-size: 20px;
+	text-align: center;
+	font-family: helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

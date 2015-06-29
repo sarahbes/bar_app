@@ -1,25 +1,22 @@
-<p>
-  <strong>Name:</strong>
-  <%= user.name %>
-</p>
- 
-<p>
-  <strong>Phone Number:</strong>
-  <%= user.phone_number %>
-</p>
 
-<p>
-  <strong>Time:</strong>
-  <%= user.time%>
-</p>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Phone Number </th>
+    <th> Time </th>
+    <th>Notes</th>
+    <th colspan="4"></th>
+  </tr>
 
-<p>
-  <strong>Notes:</strong>
-  <%= user.notes %>
-</p>
+  <tr>
+    <td><%= user.name %></td>
+    <td><%= user.phone_number %></td>
+    <td><%= user.time %></td>
+    <td><%= user.notes %></td>
+    <td><%= link_to 'Edit', edit_bar_user_path(user.bar, user) %></td>
+    <td><%= link_to 'Delete', [user.bar, user],
+    method: :delete,
+    data: { confirm: 'Are you sure?'} %></td>
+  </tr>
+  </table>
 
-<p>
-  <%= link_to 'Delete User', [user.bar, user],
-               method: :delete,
-               data: { confirm: 'Are you sure?' } %>
-</p>
